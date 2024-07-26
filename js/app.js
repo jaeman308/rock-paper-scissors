@@ -29,6 +29,9 @@ const resultDispslayEl = document.querySelector ('#result-dsiplay')
 //render a win/lose/tie message to the player 
     // including player and comp choices in the msg
     // clearly indicating who won/result 
-/*----------------------------- Event Listeners -----------------------------*/
-// handle a plyaer clicking a button 
 
+/*----------------------------- Event Listeners -----------------------------*/
+// 5)handle a plyaer clicking a button 
+document.querySelector('#rock').addEventListener('clic', play)
+document.querySelector('#paper').addEventListener('clic', play);
+document.querySelector('#scissors').addEventListener('clic', play);
